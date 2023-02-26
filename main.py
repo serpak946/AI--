@@ -10,9 +10,9 @@ import speech_recognition as sr
 import soundfile as sf
 
 
-teletoken = "6049181079:AAGJXq0VmX5M05d3DAatiS2_weWEEOz59Us"
+teletoken = "YOUR_TELEGRAM_TOKEN"
 bot = telebot.TeleBot(teletoken, parse_mode=None)
-GPT_token = "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"
+GPT_token = "OPEN_AI_TOKEN"
 model = "text-davinci-003"
 openai.api_key = GPT_token
 language = 'ru_RU'
